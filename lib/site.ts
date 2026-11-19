@@ -8,6 +8,7 @@ export const site = {
   // Trocar pelo domínio próprio quando ele for registrado e ligado na Vercel.
   url: "https://capio-producoes.vercel.app",
   cidade: "Brasília, DF",
+  instagram: "capio.rec",
   telefone: {
     e164: "+5561981367084",
     exibicao: "(61) 98136-7084",

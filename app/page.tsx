@@ -330,6 +330,9 @@ export default function Home() {
                 <span>{site.telefone.exibicao}</span>
                 <CopiarTelefone telefone={site.telefone.exibicao} />
               </div>
+              <a className="pro-ig" href={`https://instagram.com/${site.instagram}`} target="_blank" rel="noopener noreferrer">
+                <InstagramIcon />@{site.instagram}
+              </a>
             </div>
           </div>
 

@@ -43,6 +43,9 @@ export function SiteFooter() {
           <a href={whatsappUrl()} target="_blank" rel="noopener noreferrer">
             WhatsApp {site.telefone.exibicao}
           </a>
+          <a className="footer-ig" href={`https://instagram.com/${site.instagram}`} target="_blank" rel="noopener noreferrer">
+            <InstagramIcon />@{site.instagram}
+          </a>
           <span>© {new Date().getFullYear()} {site.nome}</span>
         </div>
       </div>
