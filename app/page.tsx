@@ -134,8 +134,7 @@ export default function Home() {
               </h1>
               <p className="lede">
                 Produção audiovisual completa para empresas: direção, captação e edição. Vídeos institucionais,
-                conteúdo para as redes, cobertura de eventos e transmissão ao vivo, com equipamento profissional e
-                drone FPV.
+                conteúdo para as redes, cobertura de eventos e transmissão ao vivo.
               </p>
               <div className="ctas">
                 <a className="btn" {...wa(msgGeral)}>Chamar no WhatsApp</a>
