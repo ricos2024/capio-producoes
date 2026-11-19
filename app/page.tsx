@@ -111,8 +111,8 @@ const tipos = [
 ];
 
 const etapas = [
-  { titulo: "Conversa", texto: "Entendo o seu negócio, o que os clientes mais elogiam e o que você quer mostrar." },
-  { titulo: "Gravação", texto: "Uma visita de até 2 horas por mês, combinada no melhor horário para não atrapalhar o atendimento. Gravo todos os vídeos do mês de uma vez." },
+  { titulo: "Conversa", texto: "Entendemos o seu negócio, o que os clientes mais elogiam e o que você quer mostrar." },
+  { titulo: "Gravação", texto: "Uma visita de até 2 horas por mês, combinada no melhor horário para não atrapalhar o atendimento. Gravamos todos os vídeos do mês de uma vez." },
   { titulo: "Edição", texto: "Corte, cor, legendas, texto na tela e trilha. Você recebe os vídeos em até 5 dias úteis." },
   { titulo: "Ajuste e post", texto: "Uma rodada de ajuste por vídeo, e eles estão prontos para o Reels, o TikTok e o Status." },
 ];
@@ -170,7 +170,7 @@ export default function Home() {
 
           <section>
             <div className="head">
-              <span className="label">O que eu gravo</span>
+              <span className="label">O que produzimos</span>
               <h2>Vídeos que mostram o que os seus clientes já elogiam</h2>
               <p>A sua avaliação no Google já diz que o trabalho é bom. O vídeo leva isso para o Instagram, onde o cliente novo decide.</p>
             </div>
@@ -188,7 +188,7 @@ export default function Home() {
           <section id="trabalhos">
             <div className="head">
               <span className="label">Trabalhos</span>
-              <h2>Vídeos que já gravei para empresas</h2>
+              <h2>Produções recentes para empresas</h2>
               <p>Toque no vídeo para assistir com som.</p>
             </div>
             <div className="works">
@@ -271,7 +271,7 @@ export default function Home() {
               ))}
             </div>
             <p className="note">
-              Precisa de algo diferente, como um vídeo institucional mais longo ou cobertura de evento? Chame no WhatsApp e eu monto um orçamento.
+              Precisa de algo diferente, como um vídeo institucional mais longo ou cobertura de evento? Chame no WhatsApp e montamos um orçamento.
             </p>
           </section>
 
@@ -322,7 +322,7 @@ export default function Home() {
           <div className="contact" id="contato">
             <div>
               <h2>Vamos colocar a sua empresa em cena?</h2>
-              <p>Me chame no WhatsApp. Eu respondo, entendo o que você precisa e indico o pacote certo.</p>
+              <p>Fale com a gente no WhatsApp. Entendemos o que você precisa e indicamos o pacote certo.</p>
             </div>
             <div className="side">
               <a className="btn" {...wa(msgGeral)}>Chamar no WhatsApp</a>
