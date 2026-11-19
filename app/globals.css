@@ -1,0 +1,41 @@
+:root {
+  --bg: #121419;
+  --fg: #eeeae3;
+  --muted: #a3a39e;
+  --line: #2d3039;
+  --accent: #e8a045;
+  --accent-ink: #17130c;
+  --display: var(--font-big-shoulders), "Arial Narrow", Impact, sans-serif;
+  --body: var(--font-libre-franklin), system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: var(--font-jetbrains), ui-monospace, Menlo, monospace;
+  --header-h: 4.25rem;
+  color-scheme: dark;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: var(--header-h); }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--body); -webkit-font-smoothing: antialiased; }
+img, video { max-width: 100%; }
+
+/* cabeçalho */
+.site-header { position: sticky; top: 0; z-index: 20; background: rgba(18, 20, 25, .88); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+.site-header-in { max-width: 1040px; margin: 0 auto; padding-inline: 16px; height: var(--header-h); display: flex; align-items: center; gap: 24px; }
+.marca { display: inline-flex; align-items: baseline; gap: 8px; text-decoration: none; color: var(--fg); }
+.marca-nome { font-family: var(--display); font-weight: 800; font-size: 28px; letter-spacing: .04em; text-transform: uppercase; line-height: 1; }
+.marca-sub { font-family: var(--mono); font-size: 11px; letter-spacing: .32em; text-transform: uppercase; color: var(--accent); }
+.site-header nav { display: flex; gap: 22px; margin-left: auto; }
+.site-header nav a { color: var(--muted); text-decoration: none; font-size: 15px; font-weight: 500; }
+.site-header nav a:hover { color: var(--fg); }
+.header-wa { font: 600 14px var(--body); text-decoration: none; background: var(--accent); color: var(--accent-ink); padding: 9px 16px; border-radius: 999px; }
+.site-header a:focus-visible, .site-footer a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+@media (max-width: 640px) {
+  .site-header nav { display: none; }
+  .header-wa { margin-left: auto; }
+}
+
+/* rodapé */
+.site-footer { border-top: 1px solid var(--line); }
+.site-footer-in { max-width: 1040px; margin: 0 auto; padding: 28px 16px 40px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 18px; font-size: 14px; color: var(--muted); }
+.site-footer p { margin: 8px 0 0; }
+.site-footer-contato { display: flex; flex-direction: column; gap: 6px; align-items: flex-start; }
+.site-footer a { color: var(--fg); }
