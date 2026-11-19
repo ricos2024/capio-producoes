@@ -4,7 +4,7 @@
 export const site = {
   nome: "Capio Produções",
   descricao:
-    "Produção audiovisual para empresas em Brasília: reels e vídeos curtos gravados e editados por um filmmaker.",
+    "Produtora audiovisual em Brasília: vídeos institucionais, conteúdo para redes sociais, cobertura de eventos e transmissão ao vivo para empresas.",
   // Trocar pelo domínio próprio quando ele for registrado e ligado na Vercel.
   url: "https://capio-producoes.vercel.app",
   cidade: "Brasília, DF",

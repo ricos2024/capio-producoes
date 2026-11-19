@@ -128,13 +128,14 @@ export default function Home() {
         <div className="wrap">
           <div className="hero">
             <div>
-              <span className="label">Vídeos para empresas · Brasília, DF</span>
+              <span className="label">Produtora audiovisual · Brasília, DF</span>
               <h1>
-                Sua empresa <em>em cena</em> toda semana
+                Sua empresa <em>em cena</em>, com cara de cinema
               </h1>
               <p className="lede">
-                Reels e vídeos curtos gravados e editados por um filmmaker. Uma visita de gravação por mês, vídeos
-                prontos para postar em até 5 dias úteis.
+                Produção audiovisual completa para empresas: direção, captação e edição. Vídeos institucionais,
+                conteúdo para as redes, cobertura de eventos e transmissão ao vivo, com equipamento profissional e
+                drone FPV.
               </p>
               <div className="ctas">
                 <a className="btn" {...wa(msgGeral)}>Chamar no WhatsApp</a>

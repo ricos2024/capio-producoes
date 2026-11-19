@@ -25,14 +25,14 @@ const mono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
-  title: { default: `${site.nome} · Vídeos para empresas em Brasília`, template: `%s · ${site.nome}` },
+  title: { default: `${site.nome} · Produtora audiovisual em Brasília`, template: `%s · ${site.nome}` },
   description: site.descricao,
   openGraph: {
     type: "website",
     locale: "pt_BR",
     siteName: site.nome,
-    title: `${site.nome} · Vídeos para empresas em Brasília`,
-    description: "Reels e vídeos curtos para empresas. Uma gravação por mês, vídeos prontos em até 5 dias úteis.",
+    title: `${site.nome} · Produtora audiovisual em Brasília`,
+    description: "Direção, captação e edição de vídeo para empresas: institucionais, conteúdo para redes, eventos e transmissão ao vivo.",
     url: site.url,
   },
 };
