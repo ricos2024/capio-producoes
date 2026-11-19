@@ -188,7 +188,7 @@ export default function Home() {
           <section id="trabalhos">
             <div className="head">
               <span className="label">Trabalhos</span>
-              <h2>Produções recentes para empresas</h2>
+              <h2>Produções recentes</h2>
               <p>Toque no vídeo para assistir com som.</p>
             </div>
             <div className="works">
