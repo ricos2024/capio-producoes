@@ -14,8 +14,8 @@ export function SiteHeader() {
   return (
     <header className="site-header">
       <div className="site-header-in">
-        <a className="marca" href="#inicio" aria-label="Capio Produções, início">
-          <span className="marca-nome">Capio</span>
+        <a className="marca" href="#inicio" aria-label="Capio.rec Produções, início">
+          <span className="marca-nome">Capio<span className="marca-rec">.rec</span></span>
           <span className="marca-sub">Produções</span>
         </a>
         <nav aria-label="Seções">
@@ -36,7 +36,7 @@ export function SiteFooter() {
     <footer className="site-footer">
       <div className="site-footer-in">
         <div>
-          <span className="marca-nome">Capio</span> <span className="marca-sub">Produções</span>
+          <span className="marca-nome">Capio<span className="marca-rec">.rec</span></span> <span className="marca-sub">Produções</span>
           <p>Capio vem do latim: &ldquo;eu capto&rdquo;. Produção audiovisual em {site.cidade}.</p>
         </div>
         <div className="site-footer-contato">

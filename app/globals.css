@@ -22,6 +22,7 @@ img, video { max-width: 100%; }
 .site-header-in { max-width: 1040px; margin: 0 auto; padding-inline: 16px; height: var(--header-h); display: flex; align-items: center; gap: 24px; }
 .marca { display: inline-flex; align-items: baseline; gap: 8px; text-decoration: none; color: var(--fg); }
 .marca-nome { font-family: var(--display); font-weight: 800; font-size: 28px; letter-spacing: .04em; text-transform: uppercase; line-height: 1; }
+.marca-rec { color: #e0402f; text-transform: lowercase; }
 .marca-sub { font-family: var(--mono); font-size: 11px; letter-spacing: .32em; text-transform: uppercase; color: var(--accent); }
 .site-header nav { display: flex; gap: 22px; margin-left: auto; }
 .site-header nav a { color: var(--muted); text-decoration: none; font-size: 15px; font-weight: 500; }
